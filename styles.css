@@ -19,15 +19,11 @@
 }
 
 nav{
-    height: 100px;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 16px;
     background-color: white;
+    padding-top: 16px;
 }
 
 header{
@@ -37,9 +33,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 ul{
@@ -48,7 +41,7 @@ ul{
 
 a{
     color: black;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 300;
     text-decoration: none;
 }
@@ -61,26 +54,36 @@ li{
 .sign__up{
     list-style-type: none;
     margin-left: 16px;
-    font-size: 24px;
+    font-size: 16px;
     padding: 8px 16px;
     color: white;
     background-color: rgb(98, 0, 255);
     border-radius: 16px;
 }
 
-.logo{
 
+.logo{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.logo__img{
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .intro{
     display: flex;
     flex-direction: column;
     width: 40%;
+    max-width: 480px;
 }
 
 h1{
     font-size: 55px;
-    margin-bottom: 16px;
+    margin: bottom 16px;;
 }
 
 p{
@@ -97,5 +100,46 @@ form{
 }
 
 .landing__img{
-    width: 60%;
+    max-width: auto;
+    max-height: auto;
 }
+
+/* Features */
+
+.container{
+    padding: 80px 0;
+}
+
+.row{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service__container{
+    display: flex;
+    width: calc(100%/3);
+}
+
+.service__description{
+    display: flex;
+    flex-direction: column;
+}
+
+.features__intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h5{
+    font-size: ;
+}
+
+Left on H5 styling
