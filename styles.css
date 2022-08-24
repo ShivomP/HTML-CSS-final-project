@@ -9,27 +9,8 @@
 }
 
 .text--purple{
-    color: blueviolet;
+    color: rgb(98, 0, 255);
 }
-
-nav{
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 16px;
-}
-
-h2{
-   font-size: 30px;
-}
-
-.link__list{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 
 .row{
     width: 100%;
@@ -37,21 +18,84 @@ h2{
     margin: 0 auto;
 }
 
-.home__descritpion{
+nav{
+    height: 100px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background-color: white;
+}
+
+header{
+    background-color: white;
+    height: calc(100vh - 100px);
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+ul{
+    display: flex;
+}
+
+a{
+    color: black;
+    font-size: 24px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+    padding-left: 16px;
+}
+
+.sign__up{
+    list-style-type: none;
+    margin-left: 16px;
+    font-size: 24px;
+    padding: 8px 16px;
+    color: white;
+    background-color: rgb(98, 0, 255);
+    border-radius: 16px;
+}
+
+.logo{
+
+}
+
+.intro{
     display: flex;
     flex-direction: column;
     width: 40%;
 }
 
 h1{
-    font-size: 60px;
+    font-size: 55px;
+    margin-bottom: 16px;
 }
 
-.subheader{
-    font-size: 16px;
-    margin: 16px 0 24px 0;
+p{
+    font-size: 1.125rem;
+    line-height: 1.5;
+    margin-bottom: 16px;
 }
 
-.park{
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
 
+.landing__img{
+    width: 60%;
 }
