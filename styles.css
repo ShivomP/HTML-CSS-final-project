@@ -8,6 +8,10 @@
     font-family: 'Roboto' , sans-serif;
 }
 
+section{
+    margin-bottom: 48px;
+}
+
 .text--purple{
     color: rgb(98, 0, 255);
 }
@@ -24,12 +28,12 @@ nav{
     align-items: center;
     background-color: white;
     padding-top: 16px;
+    margin-bottom: 32px;
 }
 
-header{
+.beautiful{
     background-color: white;
     height: calc(100vh - 100px);
-    padding: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,7 +59,7 @@ li{
     list-style-type: none;
     margin-left: 16px;
     font-size: 16px;
-    padding: 8px 16px;
+    padding: 8px 16px ;
     color: white;
     background-color: rgb(98, 0, 255);
     border-radius: 16px;
@@ -78,7 +82,6 @@ li{
     display: flex;
     flex-direction: column;
     width: 40%;
-    max-width: 480px;
 }
 
 h1{
@@ -90,6 +93,7 @@ p{
     font-size: 1.125rem;
     line-height: 1.5;
     margin-bottom: 16px;
+    color: grey;
 }
 
 form{
@@ -100,8 +104,11 @@ form{
 }
 
 .landing__img{
-    max-width: auto;
-    max-height: auto;
+    width: 720px;
+}
+
+.women{
+    max-width: 100%;
 }
 
 /* Features */
@@ -124,6 +131,7 @@ form{
 .service__container{
     display: flex;
     width: calc(100%/3);
+    padding: 16px;
 }
 
 .service__description{
@@ -139,7 +147,212 @@ form{
 }
 
 h5{
-    font-size: ;
+    font-size: 24px;
+    margin-bottom: 16px;
 }
 
-Left on H5 styling
+h2{
+    font-size: 55px;
+    margin-bottom: 16px;
+}
+
+.features__description{
+    width: 100%;
+    max-width: 600px;
+    padding: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: grey;
+}
+
+.title{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.description{
+    color: grey;
+}
+
+/* Quality Work */
+
+.quality{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.designed{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__img{
+    width: 600px;
+}
+
+.hero{
+    max-width: 100%;
+}
+
+.learn__more{
+    list-style-type: none;
+    font-size: 16px;
+    padding: 8px 16px ;
+    color: white;
+    background-color: rgb(98, 0, 255);
+    border-radius: 16px;
+    width: 100%;
+    max-width: 180px;
+    height: 100%;
+    max-height: 40px;
+}
+
+.ddp{
+    font-size: 40px;
+    font-weight: 1000;
+}
+
+/* Steps */
+
+.easy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.laptop{
+    width: 600px;
+}
+
+.laptop__img{
+    max-width: 100%;
+}
+
+.easy__steps{
+    width: 50%;
+    padding-left: 48px;
+}
+
+.steps{
+    display: flex;
+    flex-direction: column;
+}
+
+.steps__list{
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.list__number{
+    color: grey;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.title__description{
+    margin-bottom: 16px;
+}
+
+h6{
+    font-size: 28px;
+}
+
+/* Values */
+
+.values{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.we__always{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.affordable__professionalism{
+    display: flex;
+}
+
+h4{
+    font-size: 24px;
+}
+
+/* Pricing */
+
+.plans{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plan{
+    width: calc(100%/3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: solid grey;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.buying__options{
+    padding: 0;
+    margin-bottom: 8px;
+    color: grey;
+}
+
+.buying__title{
+    margin-bottom: 8px;
+}
+
+.buying__option{
+    padding: 0;
+    margin-bottom: 8px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.buy__now{
+    list-style-type: none;
+    margin-bottom: 16px;
+    font-size: 16px;
+    padding: 8px 16px ;
+    color: white;
+    background-color: rgb(17, 188, 134);
+    border-radius: 16px;
+    width: 100%;
+    max-width: 180px;
+    height: 100%;
+    max-height: 40px
+}
+
+.plan__business{
+    width: calc(100%/3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: solid grey;
+    background-color: rgb(86, 86, 238);
+}
+
+.buying__title__business{
+    font-size: 24px;
+    color: white;
+}
+
+.price__business{
+    
+}
