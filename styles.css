@@ -9,7 +9,7 @@
 }
 
 section{
-    margin-bottom: 48px;
+    margin-bottom: 400px;
 }
 
 .text--purple{
@@ -290,13 +290,16 @@ h4{
 }
 
 .plan{
-    width: calc(100%/3);
+    width: calc(30%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     border: solid grey;
+    box-shadow: 0 20px 80px rgba(0, 0, 0, 0.45);
+    border-radius: 20px;
+    margin-right: 2rem;
 }
 
 .options{
@@ -338,14 +341,17 @@ h4{
 }
 
 .plan__business{
-    width: calc(100%/3);
+    width: calc(30%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     border: solid grey;
-    background-color: rgb(86, 86, 238);
+    background-color: rgb(76, 81, 191);
+    box-shadow: 0 20px 80px rgba(0, 0, 0, 0.45);
+    border-radius: 20px;
+    margin-right: 2rem;
 }
 
 .buying__title__business{
@@ -354,5 +360,187 @@ h4{
 }
 
 .price__business{
-    
+    color: white;
+    font-size: 55px;
+    margin: bottom 16px;;
+}
+
+.buying__title__business{
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.buying__option__business{
+    padding: 0;
+    margin-bottom: 8px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.buying__options__business{
+    padding: 0;
+    margin-bottom: 8px;
+    color: white;
+}
+
+.monthly__business{
+    font-size: 1.125rem;
+    line-height: 1.5;
+    margin-bottom: 16px;
+    color: white;
+}
+
+.buy__now__business{
+    list-style-type: none;
+    margin-bottom: 16px;
+    font-size: 16px;
+    padding: 8px 16px ;
+    color: rgb(76, 81, 191);
+    background-color: white;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 180px;
+    height: 100%;
+    max-height: 40px
+}
+
+.buy__now__enterprise{
+    list-style-type: none;
+    margin-bottom: 16px;
+    font-size: 16px;
+    padding: 8px 16px ;
+    color: white;
+    background-color: rgb(245, 101, 101);
+    border-radius: 16px;
+    width: 100%;
+    max-width: 180px;
+    height: 100%;
+    max-height: 40px
+}
+
+/* Testimonials */
+
+.testimonials{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 52px;
+}
+
+.stars{
+    color: gold;
+    font-size: 40px;
+}
+
+/* Faqs */
+
+.faqs__list{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.faqs__item{
+    border: solid #e5e7eb;
+    margin-bottom: 32px;
+    font-size: 28px;
+    background-color: #e5e7eb;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.list__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* mini footer */
+
+.mini__footer{
+    width: 100%;
+    max-width: 1245px;
+    margin: 0 auto;
+    background-color: rgb(98, 0, 255);
+    border-radius: 20px;
+}
+
+.developers{
+    color: white;
+    font-size: 44px;
+    display: flex;
+    align-items: center;
+    padding: 96px 111px;
+}
+
+.get__started{
+    list-style-type: none;
+    margin-bottom: 16px;
+    font-size: 16px;
+    padding: 8px 16px ;
+    color: white;
+    background-color: rgb(245, 101, 101);
+    border-radius: 16px;
+    width: 100%;
+    max-width: 180px;
+    height: 100%;
+    max-height: 40px
+}
+
+.contact__us{
+    list-style-type: none;
+    margin-bottom: 16px;
+    font-size: 16px;
+    padding: 8px 16px ;
+    border-color: white;
+    color: white;
+    background-color: rgb(98, 0, 255);
+    border-radius: 16px;
+    width: 100%;
+    max-width: 180px;
+    height: 100%;
+    max-height: 40px
+}
+
+/* Footer */
+
+footer{
+    background-color: rgb(98, 0, 255);
+}
+
+.footer__links{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 0;
+}
+
+.footer__link{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: calc(100%/5);
+    align-items: center;
+}
+
+.link__title{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__list{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__list__item{
+    margin-bottom: 16px;
+    padding-left: 0;
+}
+
+.footer__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
