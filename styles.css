@@ -544,3 +544,11 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
+
+.footer__logo{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
